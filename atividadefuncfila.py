@@ -8,6 +8,7 @@ fila = []
 
 # Função que acrescenta uma quantidade X de elementos a fila
 def adiciona_elementos_fila(fila, quantidade):
+    # 
     for i in range(1, quantidade+1):
         fila.append(i)
 
@@ -17,6 +18,7 @@ def verifica_tamanho_fila(fila):
 
 # Função que verifica se a fila está vazia ou não
 def verifica_fila_vazia(fila):
+    # Se a fila estiver vazia, retorna True
     if len(fila) == 0:
         return True
     else:
